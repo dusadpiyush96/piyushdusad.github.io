@@ -29,3 +29,17 @@ d-appendix h3,d-appendix li,d-appendix span{color:var(--global-distill-app-color
  * Tabler Icons 3.0.1 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */@font-face{font-family:"tabler-icons";font-style:normal;font-weight:400;src:url("../fonts/tabler-icons-outline.woff2?v3.0.1") format("woff2"),url("../fonts/tabler-icons-outline.woff?") format("woff"),url("../fonts/tabler-icons-outline.ttf?v3.0.1") format("truetype")}.ti{font-family:"tabler-icons"!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ti-search:before{content:"\eb1c"}.ti-sun-moon:before{content:"\f4a3"}
+/* Projects page */
+.projects .project-card{border:1px solid var(--global-divider-color);background-color:var(--global-card-bg-color);box-shadow:none;transition:transform .15s ease,box-shadow .15s ease}
+.projects .project-card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.projects .project-card .card-img-top{object-fit:cover;max-height:200px;border-bottom:1px solid var(--global-divider-color)}
+.projects .project-card .card-title{font-size:1.1rem;font-weight:600;margin-bottom:.5rem;color:var(--global-text-color)}
+.projects .project-card .card-text{font-size:.9rem;line-height:1.5;color:var(--global-text-color);margin-bottom:.75rem}
+.projects .project-tags{margin-bottom:.75rem}
+.projects .tag-pill{display:inline-block;font-size:.7rem;padding:.15rem .55rem;margin:0 .25rem .25rem 0;border-radius:1rem;background-color:var(--global-code-bg-color);color:var(--global-theme-color);border:1px solid var(--global-divider-color)}
+.projects .project-links{font-size:.9rem}
+.projects .project-links a{color:var(--global-theme-color);text-decoration:none}
+.projects .project-links a:hover{text-decoration:underline}
+.projects .project-note{font-size:.85rem;color:var(--global-text-color-light);font-style:italic}
+.projects .project-screenshots{display:flex;flex-direction:column;gap:.5rem;margin:.5rem 0 .9rem 0}
+.projects .project-screenshots img{width:100%;border:1px solid var(--global-divider-color);border-radius:.25rem;display:block}
